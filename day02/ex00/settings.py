@@ -1,0 +1,9 @@
+firtsname = Natali
+secondname = urievna
+lastname = kuntso
+age = "22"
+city = "Moscow"
+phone = "911"
+email = "mail@mail.ru"
+git = "git.com"
+language = "python"

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset='UTF-8'>
+    <title>Ex02: Table.</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%" cellspacing="0" border="1">
+    {% for movie in record %}
+        <tr class='success'>
+            <td>{{ movie.episode_nb }}</td>
+            <td>{{ movie.title }}</td>
+            <td>{{ movie.opening_crawl }}</td>
+            <td>{{ movie.director }}</td>
+            <td>{{ movie.producer }}</td>
+            <td>{{ movie.release_date }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+</body>
+</html>

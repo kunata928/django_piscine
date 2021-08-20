@@ -1,0 +1,124 @@
+2021-08-13T22:49:32,223 Using pip 21.2.3 from /Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/lib/python3.9/site-packages/pip (python 3.9)
+2021-08-13T22:49:32,223 Non-user install because user site-packages disabled
+2021-08-13T22:49:32,232 Created temporary directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-ephem-wheel-cache-mutke1hu
+2021-08-13T22:49:32,232 Created temporary directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-tracker-89_8l52d
+2021-08-13T22:49:32,232 Initialized build tracking at /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-tracker-89_8l52d
+2021-08-13T22:49:32,232 Created build tracker: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-tracker-89_8l52d
+2021-08-13T22:49:32,232 Entered build tracker: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-tracker-89_8l52d
+2021-08-13T22:49:32,232 Created temporary directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-install-ql39rpgx
+2021-08-13T22:49:32,257 Collecting git+https://github.com/jaraco/path.py.git
+2021-08-13T22:49:32,258   Created temporary directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-build-8d01xpsi
+2021-08-13T22:49:32,258   Cloning https://github.com/jaraco/path.py.git to /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-build-8d01xpsi
+2021-08-13T22:49:32,258   Running command git clone -q https://github.com/jaraco/path.py.git /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-build-8d01xpsi
+2021-08-13T22:49:33,097   Running command git rev-parse HEAD
+2021-08-13T22:49:33,107   983f8254e7767a3b13f54633157d7f24ad106649
+2021-08-13T22:49:33,107   Resolved https://github.com/jaraco/path.py.git to commit 983f8254e7767a3b13f54633157d7f24ad106649
+2021-08-13T22:49:33,108   Added git+https://github.com/jaraco/path.py.git to build tracker '/private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-tracker-89_8l52d'
+2021-08-13T22:49:33,118   Created temporary directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-build-env-p7wk2tyc
+2021-08-13T22:49:33,121   Created temporary directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-standalone-pip-mi8g6ys9
+2021-08-13T22:49:33,243   Running command /Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/bin/python /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-standalone-pip-mi8g6ys9/__env_pip__.zip/pip install --ignore-installed --no-user --prefix /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-build-env-p7wk2tyc/overlay --no-warn-script-location -v --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- 'setuptools>=56' wheel 'setuptools_scm[toml]>=3.4.1'
+2021-08-13T22:49:34,243   Using pip 21.2.3 from /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-standalone-pip-mi8g6ys9/__env_pip__.zip/pip (python 3.9)
+2021-08-13T22:49:34,732   Collecting setuptools>=56
+2021-08-13T22:49:34,885     Using cached setuptools-57.4.0-py3-none-any.whl (819 kB)
+2021-08-13T22:49:35,050   Collecting wheel
+2021-08-13T22:49:35,054     Using cached wheel-0.37.0-py2.py3-none-any.whl (35 kB)
+2021-08-13T22:49:35,175   Collecting setuptools_scm[toml]>=3.4.1
+2021-08-13T22:49:35,178     Using cached setuptools_scm-6.0.1-py3-none-any.whl (27 kB)
+2021-08-13T22:49:35,274   Collecting toml
+2021-08-13T22:49:35,278     Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+2021-08-13T22:49:35,353   Installing collected packages: setuptools, toml, setuptools-scm, wheel
+2021-08-13T22:49:35,726     Creating /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-build-env-p7wk2tyc/overlay/bin
+2021-08-13T22:49:35,726     changing mode of /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-build-env-p7wk2tyc/overlay/bin/wheel to 755
+2021-08-13T22:49:35,730   Successfully installed setuptools-57.4.0 setuptools-scm-6.0.1 toml-0.10.2 wheel-0.37.0
+2021-08-13T22:49:35,733   WARNING: You are using pip version 21.2.3; however, version 21.2.4 is available.
+2021-08-13T22:49:35,733   You should consider upgrading via the '/Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/bin/python -m pip install --upgrade pip' command.
+2021-08-13T22:49:35,801   Running command /Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/bin/python /Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py get_requires_for_build_wheel /var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/tmpubpz4vk6
+2021-08-13T22:49:36,045   running egg_info
+2021-08-13T22:49:36,045   creating path.egg-info
+2021-08-13T22:49:36,046   writing path.egg-info/PKG-INFO
+2021-08-13T22:49:36,046   writing dependency_links to path.egg-info/dependency_links.txt
+2021-08-13T22:49:36,046   writing requirements to path.egg-info/requires.txt
+2021-08-13T22:49:36,046   writing top-level names to path.egg-info/top_level.txt
+2021-08-13T22:49:36,046   writing manifest file 'path.egg-info/SOURCES.txt'
+2021-08-13T22:49:36,086   reading manifest template 'MANIFEST.in'
+2021-08-13T22:49:36,086   adding license file 'LICENSE'
+2021-08-13T22:49:36,087   writing manifest file 'path.egg-info/SOURCES.txt'
+2021-08-13T22:49:36,109     Created temporary directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-modern-metadata-l8foz9c2
+2021-08-13T22:49:36,110     Running command /Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/bin/python /Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py prepare_metadata_for_build_wheel /var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/tmpvu9qkj6b
+2021-08-13T22:49:36,334     running dist_info
+2021-08-13T22:49:36,337     creating /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-modern-metadata-l8foz9c2/path.egg-info
+2021-08-13T22:49:36,337     writing /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-modern-metadata-l8foz9c2/path.egg-info/PKG-INFO
+2021-08-13T22:49:36,338     writing dependency_links to /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-modern-metadata-l8foz9c2/path.egg-info/dependency_links.txt
+2021-08-13T22:49:36,338     writing requirements to /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-modern-metadata-l8foz9c2/path.egg-info/requires.txt
+2021-08-13T22:49:36,338     writing top-level names to /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-modern-metadata-l8foz9c2/path.egg-info/top_level.txt
+2021-08-13T22:49:36,338     writing manifest file '/private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-modern-metadata-l8foz9c2/path.egg-info/SOURCES.txt'
+2021-08-13T22:49:36,377     reading manifest template 'MANIFEST.in'
+2021-08-13T22:49:36,377     adding license file 'LICENSE'
+2021-08-13T22:49:36,378     writing manifest file '/private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-modern-metadata-l8foz9c2/path.egg-info/SOURCES.txt'
+2021-08-13T22:49:36,378     creating '/private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-modern-metadata-l8foz9c2/path.dist-info'
+2021-08-13T22:49:36,396     adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+2021-08-13T22:49:36,419   Source in /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-build-8d01xpsi has version 16.2.0, which satisfies requirement path==16.2.0 from git+https://github.com/jaraco/path.py.git
+2021-08-13T22:49:36,419   Removed path==16.2.0 from git+https://github.com/jaraco/path.py.git from build tracker '/private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-tracker-89_8l52d'
+2021-08-13T22:49:36,433 Created temporary directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-unpack-zbb3bww0
+2021-08-13T22:49:36,433 Building wheels for collected packages: path
+2021-08-13T22:49:36,434   Created temporary directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-wheel-o4bjqacq
+2021-08-13T22:49:36,434   Destination directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-wheel-o4bjqacq
+2021-08-13T22:49:36,435   Running command /Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/bin/python /Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/tmpbhbzhm6b
+2021-08-13T22:49:36,668   running bdist_wheel
+2021-08-13T22:49:36,670   running build
+2021-08-13T22:49:36,670   running build_py
+2021-08-13T22:49:36,683   creating build
+2021-08-13T22:49:36,683   creating build/lib
+2021-08-13T22:49:36,683   creating build/lib/path
+2021-08-13T22:49:36,683   copying path/py37compat.py -> build/lib/path
+2021-08-13T22:49:36,684   copying path/__init__.py -> build/lib/path
+2021-08-13T22:49:36,684   copying path/masks.py -> build/lib/path
+2021-08-13T22:49:36,684   copying path/matchers.py -> build/lib/path
+2021-08-13T22:49:36,685   copying path/classes.py -> build/lib/path
+2021-08-13T22:49:36,685   running egg_info
+2021-08-13T22:49:36,688   writing path.egg-info/PKG-INFO
+2021-08-13T22:49:36,689   writing dependency_links to path.egg-info/dependency_links.txt
+2021-08-13T22:49:36,689   writing requirements to path.egg-info/requires.txt
+2021-08-13T22:49:36,690   writing top-level names to path.egg-info/top_level.txt
+2021-08-13T22:49:36,715   reading manifest template 'MANIFEST.in'
+2021-08-13T22:49:36,716   adding license file 'LICENSE'
+2021-08-13T22:49:36,716   writing manifest file 'path.egg-info/SOURCES.txt'
+2021-08-13T22:49:36,718   installing to build/bdist.macosx-10.14-x86_64/wheel
+2021-08-13T22:49:36,718   running install
+2021-08-13T22:49:36,719   running install_lib
+2021-08-13T22:49:36,719   creating build/bdist.macosx-10.14-x86_64
+2021-08-13T22:49:36,719   creating build/bdist.macosx-10.14-x86_64/wheel
+2021-08-13T22:49:36,720   creating build/bdist.macosx-10.14-x86_64/wheel/path
+2021-08-13T22:49:36,720   copying build/lib/path/py37compat.py -> build/bdist.macosx-10.14-x86_64/wheel/path
+2021-08-13T22:49:36,720   copying build/lib/path/__init__.py -> build/bdist.macosx-10.14-x86_64/wheel/path
+2021-08-13T22:49:36,720   copying build/lib/path/masks.py -> build/bdist.macosx-10.14-x86_64/wheel/path
+2021-08-13T22:49:36,720   copying build/lib/path/matchers.py -> build/bdist.macosx-10.14-x86_64/wheel/path
+2021-08-13T22:49:36,721   copying build/lib/path/classes.py -> build/bdist.macosx-10.14-x86_64/wheel/path
+2021-08-13T22:49:36,721   running install_egg_info
+2021-08-13T22:49:36,722   Copying path.egg-info to build/bdist.macosx-10.14-x86_64/wheel/path-16.2.0-py3.9.egg-info
+2021-08-13T22:49:36,724   running install_scripts
+2021-08-13T22:49:36,755   adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+2021-08-13T22:49:36,756   creating build/bdist.macosx-10.14-x86_64/wheel/path-16.2.0.dist-info/WHEEL
+2021-08-13T22:49:36,757   creating '/private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-wheel-o4bjqacq/tmp4hlfn0qn/path-16.2.0-py3-none-any.whl' and adding 'build/bdist.macosx-10.14-x86_64/wheel' to it
+2021-08-13T22:49:36,758   adding 'path/__init__.py'
+2021-08-13T22:49:36,759   adding 'path/classes.py'
+2021-08-13T22:49:36,759   adding 'path/masks.py'
+2021-08-13T22:49:36,759   adding 'path/matchers.py'
+2021-08-13T22:49:36,760   adding 'path/py37compat.py'
+2021-08-13T22:49:36,760   adding 'path-16.2.0.dist-info/LICENSE'
+2021-08-13T22:49:36,760   adding 'path-16.2.0.dist-info/METADATA'
+2021-08-13T22:49:36,761   adding 'path-16.2.0.dist-info/WHEEL'
+2021-08-13T22:49:36,761   adding 'path-16.2.0.dist-info/top_level.txt'
+2021-08-13T22:49:36,761   adding 'path-16.2.0.dist-info/RECORD'
+2021-08-13T22:49:36,761   removing build/bdist.macosx-10.14-x86_64/wheel
+2021-08-13T22:49:36,786   Created wheel for path: filename=path-16.2.0-py3-none-any.whl size=21837 sha256=146d50bb870987adc14f9351436ac69881864ad87d134809a1ede4cc7548b5de
+2021-08-13T22:49:36,786   Stored in directory: /private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-ephem-wheel-cache-mutke1hu/wheels/a1/20/8a/88ee22a2ea9ba03c3542a7b07d3ca909c9cef6d609ea63125f
+2021-08-13T22:49:36,789 Successfully built path
+2021-08-13T22:49:36,839 Installing collected packages: path
+2021-08-13T22:49:36,841   Running command git rev-parse HEAD
+2021-08-13T22:49:36,850   983f8254e7767a3b13f54633157d7f24ad106649
+
+2021-08-13T22:49:36,876 Successfully installed path-16.2.0
+2021-08-13T22:49:36,879 WARNING: You are using pip version 21.2.3; however, version 21.2.4 is available.
+2021-08-13T22:49:36,879 You should consider upgrading via the '/Users/pmelodi/PycharmProjects/pythonProject/day03/ex01/local_lib/bin/python -m pip install --upgrade pip' command.
+2021-08-13T22:49:36,879 Removed build tracker: '/private/var/folders/zz/zyxvpxvq6csfxvn_n0001hxh000c7c/T/pip-req-tracker-89_8l52d'
